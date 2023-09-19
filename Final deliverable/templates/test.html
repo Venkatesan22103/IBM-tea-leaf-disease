@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>covid-soft</title>
+    <style>
+        /* Add some basic styles for the navbar */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #f8f8f8;
+            overflow: hidden;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .navbar a:hover {
+            background-color: #ddd;
+        }
+        
+        .navbar .title {
+            font-weight: bold;
+            margin-right: 900px;
+        }
+        
+    </style>
+</head>
+<body background="1.jpg">
+    <div class="navbar">
+        <a class="title" href="#">COVID-SOFT</a>
+        <a href="home.html">Home</a>
+        <a href="pre.html">Precautions</a>
+      
+        <a href="test.html">Test</a>
+    </div>
+    
+    
+    <center>
+    <div style="position:absolute;top:300px;left: 600px;">
+        <h1>Smart Assitance for Covid</h1>
+        <form method="POST" action="/uploads"  enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" value="Upload" style="width: 100px;background-color: orangered;border-radius: 30px;">
+       
+        </form>
+    </div>
+</center>
+</body>
+</html>
